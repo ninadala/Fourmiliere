@@ -1,0 +1,13 @@
+Créer un formulaire
+outil: HTML, CSS, JS.
+Création d'un dossier CSS
+Création d'un dossier JS
+
+Pour chaque entrer faire:
+    un label <label for="email">Email: (ex: xxxx.yyyy@.zzz)</label>
+    un input <input type="email" id="email"
+       pattern='^[a-zA-Z0-9]{5}@[a-zA-Z0-9]{2,10}.(es|com|org)$' size="30" required>
+    un span <span>pour les messages en javascript</span>
+
+un bouton submit
+un bouton reset
