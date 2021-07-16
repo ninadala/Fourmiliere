@@ -1,0 +1,55 @@
+html,
+body {
+    margin: 0;
+}
+
+.container {
+    display: inline-grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-areas:
+        ". header ."
+        ". form ."
+        ". footer .";
+    gap: 20px;
+    margin: 50px;
+    height: 100vh;
+}
+
+.form {
+    grid-area: form;
+}
+
+.header {
+    grid-area: header;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.footer {
+    grid-area: footer;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+fieldset {
+    border: 1px solid lightgray;
+    background-color: rgba(225, 233, 255, 0.25);
+}
+
+legend {
+    font-style: italic;
+    font-size: 1.1em;
+    padding: 5px;
+}
+
+form input {
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 80%;
+}
