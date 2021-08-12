@@ -29,9 +29,9 @@
 				<!-------------------------------------------------------------------- 
 				                       NOS HTML CI-DESSOUS
 				--------------------------------------------------------------------->									   
-				<?php include "../html/Marché-DéposerAnnonce.html"; ?>
+				<?php //include "../html/Marché-DéposerAnnonce.html"; ?>
 				<?php //include "../html/Marché-RésultatRecherches.html"; ?>
-				<?php //include "../html/Marché-Accueil.html"; ?>
+				<?php include "../html/Marché-Accueil.html"; ?>
 				<!------------------------------------------------------------------->
 				<?php include "../html/Publication.html"; ?>
 			</div>
