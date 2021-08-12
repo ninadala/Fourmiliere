@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="70" height="62" viewBox="0 0 70 62">
+  <g id="Icone_Insérer_fichier" data-name="Icone Insérer fichier" transform="translate(-1790 -352)">
+    <g id="Rectangle_144" data-name="Rectangle 144" transform="translate(1790 352)" fill="#c996fb" stroke="#707070" stroke-width="1">
+      <rect width="70" height="62" rx="17" stroke="none"/>
+      <rect x="0.5" y="0.5" width="69" height="61" rx="16.5" fill="none"/>
+    </g>
+    <path id="Icon_material-attach-file" data-name="Icon material-attach-file" d="M41.7,13.258V40.3c0,5.2-5.879,9.407-13.137,9.407S15.426,45.5,15.426,40.3v-29.4c0-3.245,3.678-5.879,8.211-5.879s8.211,2.634,8.211,5.879V35.6c0,1.293-1.478,2.352-3.284,2.352s-3.284-1.058-3.284-2.352V13.258H20.353V35.6c0,3.245,3.678,5.879,8.211,5.879s8.211-2.634,8.211-5.879V10.907c0-5.2-5.879-9.407-13.137-9.407S10.5,5.709,10.5,10.907V40.3c0,7.149,8.079,12.934,18.063,12.934S46.627,47.451,46.627,40.3V13.258Z" transform="translate(1796.437 357)"/>
+  </g>
+</svg>

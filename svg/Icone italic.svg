@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="70" height="62" viewBox="0 0 70 62">
+  <g id="Icone_italic" data-name="Icone italic" transform="translate(-1707 -285)">
+    <g id="Rectangle_144" data-name="Rectangle 144" transform="translate(1707 285)" fill="#c996fb" stroke="#707070" stroke-width="1">
+      <rect width="70" height="62" rx="17" stroke="none"/>
+      <rect x="0.5" y="0.5" width="69" height="61" rx="16.5" fill="none"/>
+    </g>
+    <path id="Icon_Italic" data-name="Icon Italic" d="M39.877,3.411V5.732c0,.641-.893,1.161-1.994,1.161H30.063L20.093,30.107H25.92c1.1,0,1.994.52,1.994,1.161v2.321c0,.641-.893,1.161-1.994,1.161H1.994C.893,34.75,0,34.23,0,33.589V31.268c0-.641.893-1.161,1.994-1.161H9.815L19.784,6.893H13.957c-1.1,0-1.994-.52-1.994-1.161V3.411c0-.641.893-1.161,1.994-1.161H37.884C38.985,2.25,39.877,2.77,39.877,3.411Z" transform="translate(1722.061 297.5)"/>
+  </g>
+</svg>

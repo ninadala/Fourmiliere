@@ -1,0 +1,37 @@
+h2 {
+  color:var(--blancf10);
+  padding:25px;
+}
+.service{
+  background:var(--blanc);
+  color:var(--noir);
+  padding-left:5px;
+  display:flex;
+  justify-content: space-around;
+  margin:10px;
+  border-radius: 5px;
+}
+.h3 {
+  display:flex;
+  flex-direction: column;
+}
+.service, p{
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  height:20vh;
+  width:70vw;
+  margin-left:30px;
+}
+span {
+  color:var(--blancf20);
+  margin-left:30px;
+}
+.imgService {
+  display:flex;
+  position:absolute;
+  justify-content: center;
+  align-self: flex-end;
+  height:150px;
+  width:150px;
+}

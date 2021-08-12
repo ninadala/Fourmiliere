@@ -1,0 +1,41 @@
+.Publication {
+    background-color:var(--fondFenetre);
+    height:14%;        
+    color:var(--blanc);
+    display:flex;
+    flex-direction: column;
+    padding: 5px;
+  }
+  .imgAnnonceur {
+    display: flex;
+    position:absolute;
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+    flex-direction: row;
+    align-self:flex-start;
+  }
+  .nomAnnonceur {
+    color:var(--violetc20);
+    position:absolute;
+    display:inline-block;
+    flex-direction: column;
+    }
+  .imgAnnonce {
+    display:flex;
+    position:absolute;
+    height:100px;
+    width:100px;
+    flex-direction: row;
+    align-self:flex-end;
+  }
+  h5 {
+    color:var(--orange);
+    margin: 0 150px;
+    font-size: 1.5em;
+    text-align:center;
+  }
+  ol, li {
+    list-style-type: none;
+    text-align: center;
+  }

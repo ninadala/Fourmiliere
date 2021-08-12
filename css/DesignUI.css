@@ -1,0 +1,40 @@
+:root {
+    --violet: #7713dd;
+    --violetc10:#b06df4;
+    --violetc20:#c997fc;
+    --violetf10:#3e017c;
+    --violetf20:#2f0060;
+    --orange:#ff680f;
+    --orangec10:#ff9c62;
+    --orangec20:#ffb080;
+    --orangef10:#953800;
+    --orangef20:#712a00;
+    --bleu:#290fc6;
+    --bleuc10:#4835c0;
+    --bleuc20:#6757ca;
+    --bleuf10:#200e8e;
+    --bleuf20:#17096f;
+    --noir:#000000;
+    --noirc10:#484848;
+    --noirc20:#7f7f7f;
+    --blanc:#ffffff;
+    --blancf10:#d0d0d0;
+    --blancf20:#a2a2a2;
+
+    --fondFenetre:var(--violetf10);
+    }
+    
+    
+*{
+    margin:0;
+    padding:0;
+    font-family: 'krub', sans-serif;
+    line-height: 1.5em;
+    box-sizing: border-box;
+    border: none;
+}
+
+img{
+    vertical-align: middle;
+}
+

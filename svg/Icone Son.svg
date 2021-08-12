@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="70" height="62" viewBox="0 0 70 62">
+  <g id="Icone_Son" data-name="Icone Son" transform="translate(-1790 -270)">
+    <g id="Rectangle_144" data-name="Rectangle 144" transform="translate(1790 270)" fill="#c996fb" stroke="#707070" stroke-width="1">
+      <rect width="70" height="62" rx="17" stroke="none"/>
+      <rect x="0.5" y="0.5" width="69" height="61" rx="16.5" fill="none"/>
+    </g>
+    <path id="Icon_Son" data-name="Icon Son" d="M36,2.251A2.248,2.248,0,0,0,33.074.105L10.575,6.75A2.249,2.249,0,0,0,9,8.895V27.276A9.727,9.727,0,0,0,6.75,27C3.022,27,0,29.014,0,31.5S3.022,36,6.75,36s6.75-2.014,6.75-4.5V15.069l18-5.275V22.776a9.727,9.727,0,0,0-2.25-.276c-3.728,0-6.75,2.014-6.75,4.5s3.022,4.5,6.75,4.5S36,29.486,36,27V2.251Z" transform="translate(1804.5 283)"/>
+  </g>
+</svg>

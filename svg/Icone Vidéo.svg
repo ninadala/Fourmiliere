@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="70" height="62" viewBox="0 0 70 62">
+  <g id="Icone_Vidéo" data-name="Icone Vidéo" transform="translate(-1790 -188)">
+    <g id="Rectangle_144" data-name="Rectangle 144" transform="translate(1790 188)" fill="#c996fb" stroke="#707070" stroke-width="1">
+      <rect width="70" height="62" rx="17" stroke="none"/>
+      <rect x="0.5" y="0.5" width="69" height="61" rx="16.5" fill="none"/>
+    </g>
+    <path id="Icon_Vidéo" data-name="Icon Vidéo" d="M42.081,4.5H5.558A4.13,4.13,0,0,0,1.5,8.725V34.074A4.143,4.143,0,0,0,5.558,38.3H15.7v4.225H31.935V38.3H42.081a4.139,4.139,0,0,0,4.038-4.225l.02-25.349A4.143,4.143,0,0,0,42.081,4.5Zm0,29.574H5.558V8.725H42.081ZM31.935,21.4l-14.2,8.45V12.95Z" transform="translate(1801.181 195.488)"/>
+  </g>
+</svg>
