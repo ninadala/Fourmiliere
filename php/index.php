@@ -16,6 +16,7 @@
 		<link rel="stylesheet" type="text/css" href="../css/Marché-Accueil.css" media="all"/>
 		<link rel="stylesheet" type="text/css" href="../css/Marché-RésultatRecherches.css" media="all"/>
 		<link rel="stylesheet" type="text/css" href="../css/Marché-DéposerAnnonce.css" media="all"/>
+		<link rel="stylesheet" type="text/css" href="../css/Annuaire-Accueil.css" media="all"/>
 		<!------------------------------------------------------------------->
 		<link rel="shortcut icon" type="../image/svg" href="../svg/Logo.svg"/>
 	</head>
@@ -31,7 +32,8 @@
 				--------------------------------------------------------------------->									   
 				<?php //include "../html/Marché-DéposerAnnonce.html"; ?>
 				<?php //include "../html/Marché-RésultatRecherches.html"; ?>
-				<?php include "../html/Marché-Accueil.html"; ?>
+				<?php //include "../html/Marché-Accueil.html"; ?>
+				<?php include "../html/Annuaire-Accueil.html"; ?>
 				<!------------------------------------------------------------------->
 				<?php include "../html/Publication.html"; ?>
 			</div>
