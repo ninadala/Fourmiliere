@@ -1,0 +1,181 @@
+html,body{
+  width: 100%;
+  height: 100%;
+  font-family: 'Krub , sans-serif';
+}
+body{
+  background-color:var(--noir);
+  margin:0px;
+}
+.Affichage_permanent{
+  padding: 5px;
+  width: 100%;
+  height: 100%;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.Volet_gauche{
+  background-color:var(--noir);
+  width:21%;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.Volet_droit{
+  background-color:var(--noir);
+  width:78%;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+header{
+  background-color:var(--fondFenetre);
+  height:25%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;    
+}
+.Logo_et_compteFF{
+  width:55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;    
+}
+.Logo{
+  background-color:var(--fondFenetre);
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Compte_FF{
+  background-color:var(--noir);
+  width: 70%;
+  height: 30%;
+
+  border: 3px solid var(--orange);
+  margin:5% auto;
+  padding:5%;
+  font-size: 30px;
+  text-align: center;
+  color:var(--blanc)
+}
+.Photo_Profil{
+  background-color:var(--fondFenetre);
+  width:45%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Boutons_et_menu{
+  background-color:var(--noir);
+  height:74%;
+}
+.Boutons{
+  background-color:var(--noir);
+  height: 15%;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.Element-Bouton{
+  transition: 0.3s;    
+}
+.Element-Bouton:hover{
+  width:20%;
+}
+.Menu {
+  margin-top: 10px;
+}
+.ElementDuMenu-Texte {
+  color: var(--blanc);
+  font-size: 34px;
+  text-align: center;
+  margin-bottom:20px;
+  transition: 0.8s;
+}
+.ElementDuMenu-Texte:hover{
+  background-color: var(--orange);
+  font-size: 38px;
+}
+.Fenetre_travail{
+  background-color:var(--fondFenetre);
+  height:85%;
+}
+.Publication{
+  background-color:var(--fondFenetre);
+  height:14%;
+}
+
+/*css community manager annonce*/
+.annonce {
+  color:var(--violetc20);
+  font-size:1.5em;
+  padding:30px;
+}
+.images{
+  height:200px;
+  width:200px;
+  background:var(--violetc10);
+  margin-left: 30px;
+  justify-content: center;
+}
+.community{
+  display:flex;
+  position:absolute;
+  justify-content: center;
+  height:120px;
+  width:200px;
+  margin-top:40px;
+}
+.no, .ok {
+  display:block;
+  float: right;
+  height:70px;
+  width: 70px;
+  margin: 10px;
+}
+
+/*CSS publication bas de page -annonceur */
+.Publication {
+  color:var(--blanc);
+  display:flex;
+  flex-direction: column;
+  padding: 5px;
+}
+.imgAnnonceur {
+  display: flex;
+  position:absolute;
+  height:100px;
+  width:100px;
+  border-radius: 40%;
+  flex-direction: row;
+  align-self:flex-start;
+}
+.nomAnnonceur {
+  color:var(--blancf20);
+  position:absolute;
+  display:inline-block;
+  flex-direction: column;
+  margin-top:110px;
+
+}
+.imgAnnonce {
+  display:flex;
+  position:absolute;
+  height:100px;
+  width:100px;
+  flex-direction: row;
+  align-self:flex-end;
+}
+h5 {
+  color:var(--orange);
+  margin: 0 150px;
+  font-size: 1.5em;
+  text-align:center;
+}
+ol, li {
+  list-style-type: none;
+  text-align: center;
+}

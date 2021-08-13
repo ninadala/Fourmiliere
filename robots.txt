@@ -1,0 +1,12 @@
+User-agent: Googlebot
+Disallow: /admin/
+Disallow: /documentation/
+Disalow: /deleted
+
+User-agent: Yahoo! Slurp
+Disallow: /
+
+User-agent: *
+Allow: /
+
+Sitemap: http://www.exemple.com/sitemap.xml
