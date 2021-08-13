@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>Mon inscription</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/jpg" href="img/LOGO3Noir.JPG">
+    <link rel="stylesheet" type="text/css" href="css/formulaireinscription.css">
+</head>
+
+<body>
+    <div class="contact-wrapper">
+        <form class="form-horizontal" method="post" action="" novalidate>
+            <h1 class="section-header">Incrivez-vous.</h1>
+
+            <label for="email">Email</label>
+            <input type="email" class="form-control" name="email" id="email" placeholder="email@mail.com" required>
+            <span class="validityemail"></span>
+
+            <label for="password">Nom</label>
+            <input type="password" class="form-control" name="password" id="password" placeholder="Votre mot de passe"
+                required>
+            <span class="validitypassword"></span>
+            <p>Les mots de passe doivent être en alphanumérique et contenir 4 à 8 caractères.</p>
+
+            <button class="send-button" id="submit" type="submit">Envoyer</button>
+            <button class="reset-button" id="reset" type="reset">Annuler</button>
+        </form>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <script src="js/formulaireinscription.js"></script>
+</body>
+
+</html>

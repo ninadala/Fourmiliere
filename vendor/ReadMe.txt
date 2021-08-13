@@ -1,1 +1,0 @@
-on place toutes les bibliothèques tierces (tout le code qui provient d'autres personnes).
