@@ -1,4 +1,4 @@
-# la_fourmilliere
+# Fourmiliere
 Plateforme d'échanges de savoirs et de coachings
 
 Guide des bonnes pratiques GIT de la fourmillière :
