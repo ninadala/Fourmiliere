@@ -1,3 +1,9 @@
+.Fenetre_travail{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
 h2 {
   color:var(--blancf10);
   padding:25px;

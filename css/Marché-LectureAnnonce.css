@@ -1,0 +1,33 @@
+.Fenetre_travail{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.listeImages{
+  height: 25%;
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.fondImage{
+  margin: 10px;
+  width:200px;
+  height: 200px;
+  background:var(--violetc10);
+}
+.image{
+  width:200px;
+  height:200px;
+  object-fit: contain;
+}
+.validation{
+  height: 10%;
+  align-self: flex-end;
+}
+.annonce{
+color:var(--violetc20);
+  font-size:1.3em;
+  padding:30px;
+  overflow-x: hidden;
+}
