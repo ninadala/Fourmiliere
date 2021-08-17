@@ -4,7 +4,7 @@
   justify-content: space-around;
   align-items: center;
 }
-h2 {
+.Fenetre_travail>h2 {
   color:var(--blancf10);
   padding:25px;
 }
@@ -17,11 +17,11 @@ h2 {
   margin:10px;
   border-radius: 5px;
 }
-.h3 {
+.service>.h3 {
   display:flex;
   flex-direction: column;
 }
-.service, p{
+.service, .service>p{
   display:flex;
   justify-content: center;
   flex-direction: column;

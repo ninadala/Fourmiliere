@@ -1,11 +1,11 @@
-.Volet_droit{
+.Affichage_permanent>.Volet_droit{
     background-color:var(--noir);
     width:78%;
     display:flex;
     flex-direction: column;
     justify-content: space-between;
 }
-.Fenetre_travail{
+.Affichage_permanent>.Volet_droit>.Fenetre_travail{
     background-color:var(--fondFenetre);
     height:85%;
     overflow:hidden;
