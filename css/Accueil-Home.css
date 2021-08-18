@@ -7,15 +7,21 @@ body{
   margin:0px;
 }
 header {
+  margin:10px;
   display:flex;
   background: var(--violetc20);
   height:90px;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo{
+  width: 100px;
 }
 h1 {
   text-align: center;
-  font-weight:500;
-  margin-top:15px;
+  font-weight:normal;
+  font-size: 50px;
+  margin-bottom:7px;
 }
 button{
   justify-items: center;
