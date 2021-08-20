@@ -2,16 +2,26 @@
     display:flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: center;
 }
-
-
 .Recherche{
-    height: 10%;
-    background-color: var(--blanc);
+    height: 5%;
+    width:98%;
 }
-                        
+.barreRecherche{
+    border:none;
+    padding: 10px;
+    height: 40px;
+    width: 95%;
+    font-size: 1.2em;
+    vertical-align: center;
+}
+.boutonRecherche{
+    margin-left:10px;
+}
 .Tri{
     height: 5%;
+    width:98%;
 
     display: flex;
     flex-direction: row;
@@ -20,28 +30,85 @@
 .PublicationsEnLigne{
     width: 30%;
     background-color: var(--orange);
+    color:var(--blanc);
+    font-size: 1.2em;
 }
 .PublicationsExpirées{
     width: 30%;
     background-color: var(--violetf20);
+    color:var(--blanc);
+    font-size: 1.2em;
 }
 .TypeDeTri{
     width: 30%;
     background-color: var(--blanc);
+    font-size: 1.2em;
 }
 .ListePublications{
-    height: 70%;
-    background-color: var(--blanc);
+    height: 75%;
+    width:98%;
+    background-color:var(--fondFenetre);
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow-y: scroll;
+    scrollbar-base-color: orange;
+    scrollbar-arrow-color: green;
+    scrollbar-DarkShadow-Color: blue;    
 }
-                        /* <div class="Publication1"></div>
-                        <div class="Publication2"></div>
-                        <div class="Publication3"></div> */
+.Publication1,.Publication2,.Publication3{
+    display:flex;
+    height: 33%;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2px;
+    padding: 5px;
+    background-color: var(--violetc10);
+}
 .Boutons{
-    height: 10%;
-    background-color: var(--blancf20);
+    height: 7%;
+    width:100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
-                        /* <div class="CreationPublication">
-                            Créer une publication
-                        </div>
-                        <div class="Poubelle"></div>
-                        <div class="Validation"></div>     */
+
+.Publication-Bouton {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+}
+.Publication-Bouton:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+.Publication-Bouton-Creer{
+    color: #fff;
+    background-color: var(--orange);
+    background-image: linear-gradient(to top left,
+                                    rgba(0, 0, 0, .2),
+                                    rgba(0, 0, 0, .2) 30%,
+                                    rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.Publication-Bouton-Creer:hover {
+    background-color: var(--orangec10);
+}
+
+.CréationPublication{
+    width:20%;
+}
+.Poubelle{
+    width:5%;
+}
+.Validation{
+    width:5%;
+}
+

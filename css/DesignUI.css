@@ -34,7 +34,9 @@
     border: none;
 }
 
-/* img{
-    vertical-align: middle;
-} */
-
+/* ---------- TOOL ---------- */
+.tool_centrage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
