@@ -19,7 +19,7 @@
 .boutonRecherche{
     margin-left:10px;
 }
-.Tri{
+.ChoixBoite{
     height: 5%;
     width:98%;
 
@@ -27,14 +27,20 @@
     flex-direction: row;
     justify-content: space-between;
 }
-.PublicationsEnLigne{
-    width: 30%;
+.Reception{
+    width: 20%;
     background-color: var(--orange);
     color:var(--blanc);
     font-size: 1.2em;
 }
-.PublicationsExpirées{
-    width: 30%;
+.Archives{
+    width: 20%;
+    background-color: var(--violetf20);
+    color:var(--blanc);
+    font-size: 1.2em;
+}
+.Envoi{
+    width: 20%;
     background-color: var(--violetf20);
     color:var(--blanc);
     font-size: 1.2em;
@@ -44,7 +50,7 @@
     background-color: var(--blanc);
     font-size: 1.2em;
 }
-.ListePublications{
+.ListeMessages{
     height: 75%;
     width:98%;
     background-color:var(--fondFenetre);
@@ -53,15 +59,37 @@
     justify-content: space-between;
     overflow-y: scroll;
 }
-.Publication1,.Publication2,.Publication3{
+.Message1,.Message2{
     display:flex;
-    height: 33%;
+    height: 15%;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     margin: 2px;
     padding: 5px;
     background-color: var(--violetc10);
 }
+.imageExpediteur{
+    width:10%;
+}
+.imgExpediteur{
+    object-fit: contain;
+}
+.nomExpediteur{
+    width:30%;
+}
+.sujetMessage{
+    width:30%;
+}
+.iconeMessage{
+    width:5%;
+}
+.dateMessage{
+    width:10%;
+}
+
+
+
 .Boutons{
     height: 7%;
     width:100%;
@@ -99,7 +127,7 @@
     background-color: var(--orangec10);
 }
 
-.CréationPublication{
+.EnvoiMessage{
     width:20%;
 }
 .Poubelle{
