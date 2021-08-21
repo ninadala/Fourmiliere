@@ -51,29 +51,39 @@
     font-size: 1.2em;
 }
 .ListeMessages{
-    height: 75%;
+    height: 70%;
     width:98%;
     background-color:var(--fondFenetre);
     display:flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
     overflow-y: scroll;
 }
-.Message1,.Message2{
+.Message1{
     display:flex;
-    height: 15%;
+    min-height: 11.7%;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     margin: 2px;
-    padding: 5px;
     background-color: var(--violetc10);
 }
 .imageExpediteur{
-    width:10%;
+    width:6.5%;
+    height: 100%;
+
 }
 .imgExpediteur{
-    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
+.selectionMessage{
+    width:5%;
+}
+
+input.selectionMessageX {
+    transform : scale(2);
+    border-radius: 2px;
 }
 .nomExpediteur{
     width:30%;

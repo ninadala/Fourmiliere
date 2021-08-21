@@ -1,0 +1,75 @@
+.Fenetre_travail{
+display: flex;
+flex-direction: column;
+height: auto;
+}
+.eleves{
+border-style: solid;
+border-radius: 35px;
+border-width: 1px;
+border-color: white;
+display:flex;
+flex-direction: column;
+padding: 10px;
+height: 38%;
+margin: 1%;
+background-color: var(--noir);
+}
+.coachs{
+border-style: solid;
+border-radius: 35px;
+border-width: 1px;
+border-color: white;
+display:flex;
+flex-direction: column;
+padding: 10px;
+height: 38%;
+margin: 1%;
+background-color: var(--noir);
+}
+.boutons{
+display: flex;
+justify-content: flex-end;
+align-items: center;
+margin: 1%;
+height: 18%;
+}
+.groupe-images{
+display: flex;
+justify-content: space-around;
+flex-direction: row;
+}
+.cadreimg{
+width: 15%;
+display: flex;
+flex-direction: column;
+text-align: center;
+}
+#cadre5{
+border-color: rgb(0, 255, 0);
+}
+p{
+color: var(--blanc);
+font-size: 20px;
+margin-left: 40px;
+}
+.img{
+width: 100%;
+border-width: 8px;
+border-style: solid;
+border-radius: 35px;
+}
+.Ajout_personne{
+display: flex;
+align-items: center;
+justify-content: center;
+height: 163.19px;
+width: 15%;
+margin: 5px;
+border-radius: 35px;
+background-color: var(--violetc10);
+}
+.bouton{
+height: 80px;
+    margin: 10px;
+}

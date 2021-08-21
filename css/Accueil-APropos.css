@@ -1,0 +1,54 @@
+body{
+background-color:var(--noir);
+margin:0px;
+display:flex;
+flex-direction: column;
+}
+header {
+margin:10px;
+display:flex;
+width: 100%;
+background: var(--violetc20);
+height:120px;
+align-items: center;
+}
+.logo{
+width: 20%;
+}
+h1 {
+width: 80%;
+margin-right: 20%;
+text-align: center;
+font-weight:normal;
+font-size: 70px;
+margin-bottom:7px;
+}
+.div1{
+    flex-direction: column;
+    display:flex;
+    justify-content: space-between;
+    height: 80%;
+    margin: 50px;
+    background-color: var(--violetc20);
+    border-radius: 30px;
+}
+.titre{
+    margin: 20px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+p{
+    margin: 30px;
+    color: var(--blanc);
+    font-size: 20px;
+    
+}
+.contenu{
+    height: 100%;
+    display: flex;
+}
+.IconeValider{
+    margin: auto 30px 30px auto;
+    align-self: flex-end;
+}
