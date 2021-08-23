@@ -1,0 +1,79 @@
+.Fenetre_travail{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.Recherche{
+    height: 5%;
+    width:98%;
+}
+.barreRecherche{
+    border:none;
+    padding: 10px;
+    height: 40px;
+    width: 95%;
+    font-size: 1.2em;
+    vertical-align: center;
+}
+.boutonRecherche{
+    margin-left:10px;
+}
+.Tri{
+    height: 5%;
+    width:98%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.AnnoncesEnLigne{
+    width: 30%;
+    background-color: var(--orange);
+    color:var(--blanc);
+    font-size: 1.2em;
+}
+.AnnoncesExpirées{
+    width: 30%;
+    background-color: var(--violetf20);
+    color:var(--blanc);
+    font-size: 1.2em;
+}
+.TypeDeTri{
+    width: 30%;
+    background-color: var(--blanc);
+    font-size: 1.2em;
+}
+.ListeAnnonces{
+    height: 75%;
+    width:98%;
+    background-color:var(--fondFenetre);
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow-y: scroll;
+}
+.Annonce1,.Annonce2,.Annonce3{
+    display:flex;
+    height: 33%;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2px;
+    padding: 5px;
+    background-color: var(--violetc10);
+}
+.Boutons{
+    height: 7%;
+    width:100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.Annulation{
+    width:5%;
+}
+.Validation{
+    width:5%;
+}
+
